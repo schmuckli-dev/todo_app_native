@@ -1,0 +1,1 @@
+/Users/julian/Projects/NativeScript/todo_app/platforms/android/app/src/main/assets/app

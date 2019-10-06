@@ -1,0 +1,4 @@
+node_modules
+.DS_Store
+platforms/android/app/build
+platforms/ios/build

@@ -1,2 +1,23 @@
-# todo_app_native
-The native version of the simple todo app.
+# Todo App
+
+> A simple todo application.
+
+## Usage
+
+``` bash
+# Install dependencies
+npm install
+
+# Preview on device
+tns preview
+
+# Build, watch for changes and run the application
+tns run
+
+# Build, watch for changes and debug the application
+tns debug <platform>
+
+# Build for production
+tns build <platform> --env.production
+
+```

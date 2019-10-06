@@ -1,0 +1,26 @@
+{
+	"nativescript-socketio": {
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/nativescript-socketio/platforms/ios/Podfile": "2c5d779017b0315f90de913ed66134d69f6984a9",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/nativescript-socketio/platforms/ios/build.xconfig": "7e4d7e4131b48dd9057dc771e0d4d2b15ec80ca7"
+	},
+	"nativescript-toasty": {
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/nativescript-toasty/platforms/ios/Podfile": "d2912c0b63d49b87608f053dbbda0c4237ed5d11"
+	},
+	"tns-core-modules": {
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules/platforms/ios/Podfile": "cf99ce1ea2f40ade418826e909fd4e67f7034d17",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m": "95f2f41d1868f418dd79a418c30a1c2ac85829f6",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h": "61d5332c711cc0ac62e0194e18077d2ff5293b11",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules/platforms/ios/src/module.modulemap": "be8f57fbde98eb6950cdd245ff5021d7d8aa75e2",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules/platforms/ios/typings/objc!MaterialComponents.d.ts": "6e22ade7ce74eea47dc88478166c1fa7a4b2d3a0"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSLabel.h": "c7c5788d3ea834d96cf8a137cbf0c4ea28fd7829",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIImage+TNSBlocks.h": "3b31a5be818e25c142e99f98479c538632d350ae",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSWidgets.h": "f1435d046b4a9dd5d631db5ba5c9ddff04ee4bc3",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/TNSProcess.h": "787f09c57ede174d6323990e6d6e9eaf134da6f0",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Headers/UIView+PassThroughParent.h": "cddc4157f40983b34fcb1d3846666b5ecc5b1ca5",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Modules/module.modulemap": "00d2220e76eb098f1808eb4e9b5c43ad4cadf1da",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/Info.plist": "e6c4b9015b3db318650e0edca4077cedd7fc2253",
+		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework/TNSWidgets": "9d7101d457c427cee22942a97a406aa55b2de3b5"
+	}
+}

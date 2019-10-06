@@ -1,0 +1,59 @@
+PODS:
+  - MaterialComponents/AnimationTiming (84.6.0)
+  - MaterialComponents/Ink (84.6.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (84.6.0)
+  - MaterialComponents/private/Application (84.6.0)
+  - MaterialComponents/private/Math (84.6.0)
+  - MaterialComponents/ShadowElevations (84.6.0)
+  - MaterialComponents/ShadowLayer (84.6.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Tabs (84.6.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (84.6.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - Socket.IO-Client-Swift (15.1.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - MaterialComponents/Tabs (~> 84.4)
+  - Socket.IO-Client-Swift (from `https://github.com/triniwiz/socket.io-client-swift.git`)
+  - Toast (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+    - MDFInternationalization
+    - Starscream
+    - Toast
+
+EXTERNAL SOURCES:
+  Socket.IO-Client-Swift:
+    :git: https://github.com/triniwiz/socket.io-client-swift.git
+
+CHECKOUT OPTIONS:
+  Socket.IO-Client-Swift:
+    :commit: eb39290d607fb092eb59af8f3532612b045f0ee0
+    :git: https://github.com/triniwiz/socket.io-client-swift.git
+
+SPEC CHECKSUMS:
+  MaterialComponents: 71139af6ca6875fbde8ab8e64a275b7fd6a22d7f
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  Socket.IO-Client-Swift: 554ab1004ba68249d1dd14b10eddb11ea4cb4133
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 042d7efab0501bd646b9652c8949be34465d58b8
+
+COCOAPODS: 1.8.3
