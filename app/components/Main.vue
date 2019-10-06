@@ -3,9 +3,16 @@
         <ActionBar flat="true" title="Start">
             <NavigationButton/>
         </ActionBar>
-        <FlexboxLayout top="30" flexDirection="column">
-          <ActivityIndicator busy="true" @busyChange="onBusyChanged" />
-        </FlexboxLayout>
+       <AbsoluteLayout>
+          <FlexboxLayout top="130" width="100%" flexDirection="column">
+            <Label :text="items.length + ' Items'"></Label>
+            <ListView for="item in items">
+              <v-template>
+                <Label :text="item.data.name" />
+              </v-template>
+            </ListView>
+          </FlexboxLayout>
+        </AbsoluteLayout>
     </Page>
 </template>
 
@@ -17,18 +24,19 @@ const appSettings = require("application-settings");
 export default {
   data() {
     return {
-
+      items: []
     }
   },
   methods: {
     start(){
       var session_token = appSettings.getString("session_token", undefined);
-      console.log(session_token);
       if(session_token !== undefined) {
-        alert(session_token)
-            .then(() => {
-              console.log("Alert dialog closed.");
-            });
+        storage.setAuthToken(session_token);
+        storage.getAll("items").then(function(response){
+          if(response.isOK){
+            this.items = response.data;
+          }
+        }.bind(this));
       } else {
         var global_this = this;
         alert("You are not authorized")
@@ -48,6 +56,15 @@ export default {
     ActionBar {
         background-color: white;
         color: #000;
+    }
+
+    Label {
+      color: black;
+      font-size: 20px;
+    }
+
+    ListView {
+      color: black;
     }
 
     FlexboxLayout {

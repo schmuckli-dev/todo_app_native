@@ -1,1 +1,1 @@
-/Users/julian/Projects/NativeScript/todo_app/platforms/android/app/src/main/java
+/Users/julian/Projects/todo_app/platforms/android/app/src/main/java
