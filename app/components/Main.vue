@@ -3,16 +3,18 @@
         <ActionBar flat="true" title="Start">
             <NavigationButton/>
         </ActionBar>
-       <AbsoluteLayout>
-          <FlexboxLayout top="130" width="100%" flexDirection="column">
-            <Label :text="items.length + ' Items'"></Label>
-            <ListView for="item in items">
-              <v-template>
+       <StackLayout>
+          <Label class="total" :text="items.length + ' Items'"></Label>
+          <ListView top="20" for="item in items" height="100%" separatorColor="transparent">
+            <v-template>
+              <StackLayout class="item">
                 <Label :text="item.data.name" />
-              </v-template>
-            </ListView>
-          </FlexboxLayout>
-        </AbsoluteLayout>
+                <Label :text="item.data.description" />
+                <Label text="" />
+              </StackLayout>
+            </v-template>
+          </ListView>
+        </StackLayout>
     </Page>
 </template>
 
@@ -65,6 +67,18 @@ export default {
 
     ListView {
       color: black;
+    }
+
+    .item {
+      padding: 30px;
+    }
+
+    .total {
+      margin: 30px;
+    }
+
+    .list_item {
+      margin-bottom: 30px;
     }
 
     FlexboxLayout {
