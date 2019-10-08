@@ -1,4 +1,0 @@
-/Users/julian/Projects/todo_app/platforms/android/app/src/main/assets/app/runtime.js
-/Users/julian/Projects/todo_app/platforms/android/app/src/main/assets/app/bundle.js
-/Users/julian/Projects/todo_app/platforms/android/app/src/main/assets/app/vendor.js
-/Users/julian/Projects/todo_app/platforms/android/app/src/main/assets/app/tns-java-classes.js

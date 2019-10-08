@@ -1,9 +1,0 @@
-{
-	"nativescript-socketio": {
-		"/Users/julian/Projects/NativeScript/todo_app/node_modules/nativescript-socketio/platforms/android/include.gradle": "c541a1b67002137b77d5038c1424589f066408d9",
-		"/Users/julian/Projects/NativeScript/todo_app/node_modules/nativescript-socketio/platforms/android/fancylogger-release.aar": "3d953e0e92d87fa89414276ac07edc7347a92b5d"
-	},
-	"tns-core-modules-widgets": {
-		"/Users/julian/Projects/NativeScript/todo_app/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0ff68ea2dea492d8ca6c2803f5700f1872126431"
-	}
-}

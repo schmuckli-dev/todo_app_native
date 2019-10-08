@@ -1,1 +1,0 @@
-/Users/julian/Projects/todo_app/platforms/android/app/src/main/assets/app
